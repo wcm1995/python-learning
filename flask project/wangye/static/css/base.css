@@ -1,0 +1,21 @@
+
+.navbar-brand{
+    padding:0px;
+}
+
+.logo {
+    width:150px;
+    height:50px;
+}
+
+body{
+    background:#f3f3f3;
+}
+
+.main{
+    background:#fff;
+    width:730px;
+    margin:0 auto;
+    overflow:hidden;
+    padding:10px;
+}
