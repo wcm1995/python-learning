@@ -4,6 +4,7 @@ from models import User, Question, Answer
 from exts import db
 from decorators import login_required
 
+
 app = Flask(__name__)
 app.config.from_object(config)
 db.init_app(app)
@@ -119,4 +120,5 @@ def my_context_processor():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug='True')
+    
+    app.run(host='192.168.1.123', port=5000, debug='True')
